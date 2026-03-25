@@ -1,0 +1,39 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(../../imagens/arquivos-necessarios-estilizando-formularios-parte2/arquivos-necessarios-estilizando-formularios-parte2/fundo.jpg) no-repeat;
+}
+fieldset{
+    padding: 20px;
+    margin: 0px auto;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.404);
+    border: none;
+    border-radius: 10px;
+}
+legend{
+    text-align: center;
+}
+fieldset div{
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input{
+    line-height: 40px;
+    width: 80%;
+    font-size: 1em;
+    margin-bottom: 5px;
+    border: none;
+}
+label{
+    vertical-align: middle;
+}
+input[type="submit"]{
+    height: 50px;
+    color: white;
+    background: #f79300;
+    border: 2px solid #db7d00;
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}

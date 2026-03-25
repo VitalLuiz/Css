@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+header{
+    height: 150px;
+    background: rgb(255, 200, 99);
+    font-weight: 700;
+}
+main{
+    background-color: #f2f2f2;
+}
+footer{
+    font-size: 0.8em;
+    background: rgb(193, 193, 193);
+    text-align: center;
+    padding: 10px;
+}
+#principal{
+    width: 65%;
+    margin: 0px auto;
+}
+#Nesquerdo{
+    margin-top: 20px;
+    background: white;
+    width: 28%;
+    float: right;
+}
+#noticias{
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    width: 65%;
+    padding: 20px;
+}
+.blocoN{
+    margin: 10px;
+    margin-bottom: 10px;
+}
+h1{
+    color:rgb(95, 95, 95);;
+    text-align: center;
+    padding-top: 30px;
+}
+h2{
+    font-size: 1.2em;
+    color: rgb(255, 200, 99);
+}
+h3{
+    color: rgb(73, 73, 73);
+    padding-top: 5px;
+    padding-left: 5px;
+    background: rgb(193, 193, 193);
+    height: 35px;
+    font-size: 0.9em;
+}
+p{
+    font-size: 0.9em;
+}
+.pblocoN{
+    font-size: 0.6em;
+    padding-left: 5px;
+}
+.postagem{
+    font-size: 0.8em;
+    color: black;
+    margin-bottom: 20px;
+}
+nav{
+    font-size: 0.7em;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background: rgba(255, 255, 255, 0.564);
+}
+.leia{
+    margin-top: 5px;
+    color: rgb(255, 200, 99);
+    font-size: 0.6em;
+    padding-top: 0px;
+    display: block;
+}
+.leia2{
+    margin-top: 5px;
+    padding-left: 0px;
+    color: rgb(255, 200, 99);
+    font-size: 0.8em;
+    padding-top: 0px;
+    display: block;
+}
+.leia:hover{
+    background: none;
+}
+.fixed{
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.45);
+    font-size: 0.6em;
+    padding: 10px;
+}
+#afixed{
+    padding: 0px;
+    color: rgb(255, 210, 126);
+}
+#afixed:hover{
+    background: none;
+}
+#Blog{
+    color: white;
+}
