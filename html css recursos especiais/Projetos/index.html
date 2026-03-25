@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <a href=""><img src="img/logo.png" alt="Logo do museu nacional"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="area-principal">
+            <div id="l1principal">
+                <img src="img/museu.png" alt="Museu">
+            </div>
+            <div id="l2principal">
+                <div id="l2principal-esq">
+                    <h2>Vídeo: Conheça o museu</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/RGUYb-hivrc?si=15GDFcWoINWAI8Bh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <h2 style="padding-top: 25px;">Exposições</h2>
+                    <ul>
+                        <li>Os assustadores insetos</li>
+                        <li>O cranio de luzia - A mulher mais antiga do mundo</li>
+                        <li>Preguiça gigante e tigres-dente-de-sabre</li>
+                        <li>Plantas do brasil central</li>
+                        <li>Tereza cristina - A imperatriz Arqueóloga</li>
+                        <li>A arte com dinossauros - Paleoarte</li>
+                        <li>Veja Todos (65)</li>
+                    </ul>
+                </div>
+                <div id="l2principal-dir">
+                    <h2>Mapa: Encontre o Museu</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15356.504214873325!2d-47.878135!3d-15.797305999999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a309b1e384357%3A0xa8f81b7dc5456548!2sMuseu%20Nacional%20da%20Rep%C3%BAblica!5e0!3m2!1spt-BR!2sbr!4v1774142618605!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h2 style="padding-top: 25px;">200 Anos de história</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quisquam ullam vel alias impedit asperiores eaque vero ea est illum minus itaque corporis quaerat ad dolor, dolores laudantium cumque in.</p>
+                    <a href="#">Leia mais</a>
+                </div>
+            </div>
+        </section>
+        <section id="area-lateral">
+            <div id="latl1">
+                <img src="img/depoimento.png" alt="depoimento">
+            </div>
+            <div id="latl2">
+                <div id="latl2cima">
+                    <h3>Faça uma visita</h3>
+                    <label for="data" class="label1">Data: </label>
+                    <input type="date" id="data" name="data">
+                    <label for="numero">Qtd pessoas: </label>
+                    <input type="number" id="numero">
+                    <input type="submit" value="Verificar disponibilidade">
+                </div>
+                <div id="latl2baixo">
+                    <h3>Galeria de fotos</h3>
+                    <div id="fotos">
+                        <a href="">
+                            <img src="img/imagem1.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem2.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem3.jpg" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/imagem4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

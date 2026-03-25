@@ -1,0 +1,34 @@
+body{
+    background: #27272a;
+}
+#conteudo{
+    background: #6366f1;
+    height: 400px;
+    display: flex;
+    /*gap: 30px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;*/
+}
+.item{
+    background: #38bdf8;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /*
+    flex-grow: 0.2;
+    flex-shrink: 1;*/
+    flex-basis: auto;
+}
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}

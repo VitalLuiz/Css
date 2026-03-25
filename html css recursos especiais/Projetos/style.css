@@ -1,0 +1,147 @@
+html, body{
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: url(img/fundo.png) repeat-x;
+}
+header{
+    height: 13%;
+    background: black url(img/fundo.png);
+    display: flex;
+    align-items: center;
+}
+#topo{
+    height: 60%;
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#topo a{
+    color: rgb(255, 132, 50);
+    font-size: 1em;
+}
+#topo a:hover{
+    color: rgb(31, 121, 31);
+    border-bottom: 1px solid #535858;
+}
+main{
+    width: 72%;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+h2{
+    margin-top: 0px;
+    color: rgb(58, 110, 58);
+    font-size: 1.3em;
+}
+p{
+    text-align: justify;
+}
+#areaprincipal{
+    display: flex;
+    flex-direction: column;
+}
+#l1principal{
+    flex-grow: 2;
+    margin-bottom: 20px;
+}
+#l2principal{
+    display: flex;
+}
+#l2principal-esq iframe, #l2principal-dir iframe{
+    width: 100%;
+    height: 165px;
+}
+#l2principal-esq{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    flex-grow: 1;
+}
+#l2principal-dir{
+    width: 50%;
+    padding: 0px 15px;
+    flex-grow: 1;
+}
+#l2principal li{
+    font-size: 0.9em;
+    display: list-item;
+    color: rgb(181, 124, 11);
+    padding: 2px;
+}
+#l2principal li::marker{
+    color: black;
+}
+#l2principal-dir a{
+    color: rgb(181, 124, 11);
+    text-transform: none;
+}
+#area-lateral{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    background: rgb(230, 222, 211);
+}
+#latl1{
+    margin: 0px;
+    padding: 0px;
+}
+#latl2cima{
+    background: rgb(205, 190, 166);
+    margin-top: 20px;
+    padding: 10px 20px 25px;
+    font-size: 0.9em;
+}
+#latl2baixo{
+    padding: 10px 20px 25px;
+}
+h3{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    color: rgb(121, 71, 37);
+}
+.label1{
+    padding-left: 20px;
+}
+input[type="date"]{
+    width: 35%;
+}
+input[type="number"]{
+    width: 10%;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 10px 0px;
+    box-shadow: none;
+    background: rgb(165, 138, 106);
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px; 
+}
+#fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+#fotos a{
+    padding: 20px;
+    background: url(img/fundo-foto.png) no-repeat;
+}
