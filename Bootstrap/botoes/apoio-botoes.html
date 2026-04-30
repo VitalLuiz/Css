@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap fundamentos</title>
+    <link href="../bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    </head>
+  <body>
+    
+    <div class="container border border-2">
+
+    <!-- Botoes 
+    formatação padrao: btn
+    formatação específicas:
+    btn-primary, btn-secondary, btn-success, btn-info,
+    btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->
+    <h3>Botões</h3>
+    <button class="btn btn-outline-primary" type="button">Clique</button>
+
+    <h3>Botões com diferentes tags</h3>
+    <a class="btn" href="#">Link</a>
+    <button class="btn" type="submit">Submit</button>
+    <input class="btn" type="button" value="Button">
+    <input class="btn" type="submit" value="Input Submit">
+    <input class="btn" type="reset" value="Reset">
+
+    <!-- Botoes com contorno
+    btn-outline-<formato>
+    -->
+    <h3>Botões com contorno</h3>
+    <button class="btn" type="button">Clique</button>
+
+    <!-- Tamanhos de botões
+    opções: btn-lg, btn-sm, w-100 (ocupar todo espaço)
+    -->
+    <h3>Tamanhos dos botões</h3>
+    <button class="btn btn-outline-primary btn-lg" type="button">Grande</button>
+    <button class="btn btn-outline-primary" type="button">Normal</button>
+    <button class="btn btn-outline-primary btn-sm" type="button">Pequeno</button>
+    <br><br>
+    <button class="btn btn-outline-primary w-100" type="button">Botão ocupando todo espaço</button>
+
+    <!-- Estados dos botões
+    opções: active, disabled
+    -->
+    <h3>Estados de botões</h3>
+    <button class="" type="button">Normal</button>
+    <button class="btn btn-danger active" type="button">Ativo</button>
+    <button class="btn btn-danger disabled" type="button">Desabilitado</button>
+    <br><br>
+    <button class="btn btn-danger" data-bs-toggle="button" type="button">Alternar</button>
+
+    <h3>Grupos de botões - horizontal</h3>
+    <div class="btn-group">
+        <button class="btn btn-danger" type="button">Esquerda</button>
+        <button class="btn btn-danger" type="button">Centro</button>
+        <button class="btn btn-danger" type="button">Direita</button>
+    </div>
+
+    <h3>Grupos de botões - vertical</h3>
+    <div class="btn-group-vertical">
+        <button class="btn btn-danger" type="button">Topo</button>
+        <button class="btn btn-danger" type="button">Meio</button>
+        <button class="btn btn-danger" type="button">Fundo</button>
+    </div>
+
+    <h3>Botões dropdown</h3>
+    <div class="dropdown">
+        <button 
+        class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+        type="button">
+            Clique
+        </button>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+        </div>
+    </div>
+
+    </div>
+
+
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
