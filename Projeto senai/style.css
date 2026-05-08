@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Texto-medio";
+    src: url(fonts/Poppins-Medium.ttf);
+}
+body{
+    background-color: #050815;
+    font-family: 'Texto-medio', serif;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobile-menu div{
+    height: 2px;
+    width: 20px;
+    background-color: #D8E7FA;
+    margin: 6px;
+}
+.mobile-menu{
+    background: #0C1324;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 15px;
+    padding: 8px 9px;
+    cursor: pointer;
+}
+header div img{
+    width: 80px;
+}
+div#busca{
+    display: flex;
+    align-items: center;
+    background: #0c132459;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 40px;
+    padding: 8px 9px;
+}
+div#busca input{
+    background: #ffffff00;
+    border: none;
+    border-radius: 15px;
+    padding: 2px 9px;
+
+}
+div#busca input:focus{
+    outline: none;
+    caret-color: white;
+}
+div#busca input::placeholder{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 0.9em;
+}
+/*Main*/
