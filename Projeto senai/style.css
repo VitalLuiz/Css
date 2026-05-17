@@ -315,4 +315,12 @@ background-size: 700px;
     font-size: 0.9em;
     font-family: 'Texto-regular', serif;
 }
-
+/*footer*/
+footer{
+    background: #111833;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 15px;
+}
