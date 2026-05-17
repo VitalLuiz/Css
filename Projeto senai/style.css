@@ -14,9 +14,6 @@
     font-family: "Texto-bold";
     src: url(fonts/Poppins-Bold.ttf);
 }
-@media screen and (max-width: 768px) {
-    
-}
 body{
     background-color: #050815;
     font-family: 'Texto-medio', serif;
@@ -122,29 +119,26 @@ div#banner{
     border-radius: 50px;
     padding: 13px 7px 13px 44px;
 }
-div#titulo{
-    width: 90%;
-    margin: 0 auto;
+.titulo{
+    padding-left: 15px;
     font-family: 'Texto-medio', serif;
     margin-top: 15px;
 }
-div#titulo h1{
+.titulo h1{
     font-size: 3.3em;
     letter-spacing: -0.03em;
 }
-div#informacoes{
-    width: 90%;
-    margin: 0 auto;
+#informacoes{
+    padding-left: 15px;
     margin-top: 15px;
     color: #c7defce5;
     font-size: 0.9em;
     font-family: 'Texto-regular', serif;
 }
-div#botoes{
+#botoes{
     display: flex;
     gap: 15px;
-    width: 90%;
-    margin: 0 auto;
+    padding-left: 15px;
     margin-top: 20px;
 }
 #btn-comprar{
@@ -161,7 +155,7 @@ div#botoes{
 }
 #btn-ofertas{
     background: #0C152F;
-     border: 1px solid rgba(255, 255, 255, 0.301);
+    border: 1px solid rgba(255, 255, 255, 0.301);
     border-radius: 40px;
     padding: 12px 14px;
     color: #c7defce5;
@@ -177,7 +171,7 @@ div#botoes{
 }
 /*part2*/
 #parte2{
-    padding: 30px 15px;
+    padding: 60px 15px 30px 15px;
     background:
     linear-gradient(
         rgba(0, 0, 0, 0.7),
@@ -186,12 +180,13 @@ div#botoes{
     url(imagens/fundo.webp);
 background-size: 700px;
 }
-#categorias{
+.subtitulo{
     background: #0a396880;
     display: inline-block;
     padding: 13px 15px;
     border: 1px solid rgba(255, 255, 255, 0.219);
     border-radius: 40px;
+    margin-bottom: 15px;
 }
 h2{
     margin: 0px;
@@ -200,36 +195,124 @@ h2{
 #opcoes{
     padding: 10px 0px;
 }
-#op1{
-    background: #11275a5b;
+.opc{
+    background: #11275a70;
     width: 100%;
     padding: 13px 10px;
     border: 2px solid rgba(255, 255, 255, 0.082);
     border-radius: 25px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
-#op1 div#imagem-op1{
-    padding: 5px 0px 10px 15px;
-    margin-right: 15px;
-    background: #2247c02a;
+.opc div.imagem-ops{
+    padding: 10px 0px 10px 15px;
+    margin: 0px 12px;
+    background: #2247c04b;
     border-radius: 15px;
 }
-#op1 img{
+.opc img{
     width: 55px;
     margin-right: 15px;
 }
-div#texto-op1{
-    margin-top: 10px;
+div.texto-ops{
+    margin-top: 18px;
     width: 130px;
     font-size: 0.8em;
 }
-div#texto-op1 h3{
+div.texto-ops h3{
     font-size: 1.5em;
     font-family: 'Texto-semibold', serif;
 }
-div#texto-op1 p{
+div.texto-ops p{
     font-size: 0.85em;
     font-family: 'Texto-semibold', serif;
     margin-top: 8px;
+    color: #c7defca1;
 }
+#op2 h3{
+    font-size: 1.3em;
+    font-family: 'Texto-semibold', serif;
+}
+/*Parte3*/
+#parte3{
+padding: 50px 15px 50px 15px;
+background:
+linear-gradient(
+    rgba(19, 23, 32, 0.8),
+    rgba(17, 21, 27, 0.8)
+),
+url(imagens/fundo.webp);
+background-size: 700px;
+}
+#texto-catalogo{
+    font-size: 0.6em;
+    padding: 0px;
+}
+#parte3 .informacoes{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+#itens-catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.itens{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #d8e7fa28;
+    border-radius: 30px;
+    overflow: hidden;
+}
+#imagem-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    margin: 0px auto;
+    padding: 30px 0px;
+}
+.partesup{
+    background: linear-gradient(to top left , #0B1022 70%, #0f2d56b6);
+}
+.parteinf{
+    padding: 20px 0px 20px 20px;
+    background-color: #02092777;
+}
+.parteinf h4{
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #7ccbfc;
+    margin-bottom: 15px;
+}
+.parteinf h3{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.texto-item h2{
+    font-size: 1.4em;
+    font-family: 'Texto-semibold', serif;
+}
+.botoes-item{
+    margin-top: 20px;
+}
+.botoes-item button{
+    background: #10305481;
+    border: 1px solid #7ccbfc91;
+    border-radius: 50px;
+    padding: 12px 20px;
+    color: white;
+    font-family: 'Texto-medio', serif;
+    font-size: 1em;
+    cursor: pointer;
+}
+.informacoes{
+    padding-left: 15px;
+    margin-top: 15px;
+    color: #c7defce5;
+    font-size: 0.9em;
+    font-family: 'Texto-regular', serif;
+}
+
